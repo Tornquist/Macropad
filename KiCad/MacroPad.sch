@@ -97,7 +97,7 @@ U 1 1 5CEB38EC
 P 2500 2950
 F 0 "R1" V 2400 2900 50  0000 L CNN
 F 1 "1.5k" V 2600 2950 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 2500 2950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2500 2950 50  0001 C CNN
 F 3 "~" H 2500 2950 50  0001 C CNN
 	1    2500 2950
 	1    0    0    -1  
