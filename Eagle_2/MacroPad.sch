@@ -10804,6 +10804,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$1" library="Controller" deviceset="ATMEGA32U4" device="-QFN44"/>
 <part name="SW00" library="Hardware" deviceset="SWITCH-SMD" device="-EVQP-P2602W"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="U$2" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 </parts>
 <sheets>
 <sheet>
@@ -10983,6 +10984,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="SUPPLY9" gate="GND" x="66.04" y="17.78" smashed="yes">
 <attribute name="VALUE" x="64.135" y="14.605" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="322.58" y="30.48" smashed="yes">
+<attribute name="NAME" x="315.77" y="35.798" size="1" layer="95"/>
 </instance>
 </instances>
 <busses>
