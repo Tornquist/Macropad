@@ -153,6 +153,7 @@
 <wire x1="76.2" y1="0" x2="76.2" y2="76.2" width="0" layer="20"/>
 <wire x1="76.2" y1="76.2" x2="0" y2="76.19" width="0" layer="20"/>
 <wire x1="0" y1="76.19" x2="0" y2="0" width="0" layer="20"/>
+<text x="38.1" y="2.54" size="1.778" layer="22" rot="MR0" align="bottom-center">v20190525</text>
 </plain>
 <libraries>
 <library name="Components">
