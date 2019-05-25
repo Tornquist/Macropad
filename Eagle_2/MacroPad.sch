@@ -11214,9 +11214,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="228.6" y1="73.66" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
 <junction x="228.6" y="73.66"/>
 <wire x1="195.58" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
-<wire x1="154.94" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="66.04" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="55.88" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PB5(PCINT5/OC1A/ADC12/!OC4B)"/>
+<wire x1="154.94" y1="55.88" x2="195.58" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -11269,9 +11269,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="274.32" y1="73.66" x2="274.32" y2="35.56" width="0.1524" layer="91"/>
 <junction x="274.32" y="73.66"/>
 <wire x1="190.5" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="177.8" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PB5(PCINT5/OC1A/ADC12/!OC4B)"/>
-<wire x1="190.5" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="177.8" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
+<wire x1="190.5" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -11339,10 +11339,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="213.36" y1="53.34" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="50.8" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
 <junction x="213.36" y="50.8"/>
-<wire x1="213.36" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="50.8" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="50.8" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PD7(T0/OC4D/ADC10)"/>
-<wire x1="195.58" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
