@@ -621,106 +621,245 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="Components" package="C0603" value="22p" x="14.986" y="28.575" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="14.986" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="04025A220JAT2A" x="14.986" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.606" y="28.537" size="1" layer="25" ratio="13" rot="R90" align="top-center"/>
+<attribute name="OC_NEWARK" value="96M1143" x="14.986" y="28.575" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="Components" package="C0603" value="22p" x="8.636" y="28.575" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="8.636" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="04025A220JAT2A" x="8.636" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="7.889" y="28.613" size="1" layer="25" ratio="13" rot="R270" align="top-center"/>
+<attribute name="OC_NEWARK" value="96M1143" x="8.636" y="28.575" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C3" library="Components" package="C0603" value="4.7u" x="6.477" y="44.45" smashed="yes" rot="R225">
+<attribute name="MF" value="" x="6.477" y="44.45" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MPN" value="" x="6.477" y="44.45" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="NAME" x="5.960253125" y="44.955115625" size="1" layer="25" ratio="13" rot="R225" align="top-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="6.477" y="44.45" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="C4" library="Components" package="C0603" value="0.1u" x="6.985" y="35.56" smashed="yes" rot="MR45">
+<attribute name="MF" value="" x="6.985" y="35.56" size="1.778" layer="28" rot="MR45" display="off"/>
+<attribute name="MPN" value="" x="6.985" y="35.56" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="7.502303125" y="36.08893125" size="1" layer="26" ratio="13" rot="MR45" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="6.985" y="35.56" size="1.778" layer="28" rot="MR45" display="off"/>
 </element>
 <element name="C5" library="Components" package="C0603" value="0.1u" x="5.588" y="38.862" smashed="yes" rot="MR135">
+<attribute name="MF" value="" x="5.588" y="38.862" size="1.778" layer="28" rot="MR135" display="off"/>
+<attribute name="MPN" value="" x="5.588" y="38.862" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="6.11693125" y="38.344690625" size="1" layer="26" ratio="13" rot="MR135" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="5.588" y="38.862" size="1.778" layer="28" rot="MR135" display="off"/>
 </element>
 <element name="C6" library="Components" package="C0603" value="0.1u" x="10.922" y="34.671" smashed="yes" rot="MR135">
+<attribute name="MF" value="" x="10.922" y="34.671" size="1.778" layer="28" rot="MR135" display="off"/>
+<attribute name="MPN" value="" x="10.922" y="34.671" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="10.43493125" y="35.04269375" size="1" layer="26" ratio="13" rot="MR135" align="top-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="10.922" y="34.671" size="1.778" layer="28" rot="MR135" display="off"/>
 </element>
 <element name="C7" library="Components" package="C0603" value="0.1u" x="13.716" y="38.481" smashed="yes" rot="MR225">
+<attribute name="MF" value="" x="13.716" y="38.481" size="1.778" layer="28" rot="MR225" display="off"/>
+<attribute name="MPN" value="" x="13.716" y="38.481" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="13.19869375" y="37.952065625" size="1" layer="26" ratio="13" rot="MR225" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="13.716" y="38.481" size="1.778" layer="28" rot="MR225" display="off"/>
 </element>
 <element name="C8" library="Components" package="C0603" value="1u" x="4.826" y="31.75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="4.826" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="4.826" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="5.476" y="31.661" size="1" layer="25" ratio="13" rot="R270" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="4.826" y="31.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D1" library="Components" package="DFN0603-2" value="" x="66.04" y="19.05" smashed="yes"/>
-<element name="D10" library="Components" package="DFN0603-2" value="" x="57.15" y="68.58" smashed="yes" rot="R90"/>
-<element name="D11" library="Components" package="DFN0603-2" value="" x="39.37" y="68.58" smashed="yes" rot="R90"/>
-<element name="D12" library="Components" package="DFN0603-2" value="" x="36.83" y="68.58" smashed="yes" rot="R90"/>
-<element name="D2" library="Components" package="DFN0603-2" value="" x="50.165" y="17.399" smashed="yes" rot="R270"/>
-<element name="D3" library="Components" package="DFN0603-2" value="" x="31.115" y="17.399" smashed="yes" rot="R270"/>
-<element name="D4" library="Components" package="DFN0603-2" value="" x="66.04" y="38.1" smashed="yes"/>
-<element name="D5" library="Components" package="DFN0603-2" value="" x="50.165" y="36.449" smashed="yes" rot="R270"/>
-<element name="D6" library="Components" package="DFN0603-2" value="" x="31.115" y="36.449" smashed="yes" rot="R270"/>
-<element name="D7" library="Components" package="DFN0603-2" value="" x="66.04" y="57.15" smashed="yes"/>
-<element name="D8" library="Components" package="DFN0603-2" value="" x="50.165" y="55.499" smashed="yes" rot="R270"/>
-<element name="D9" library="Components" package="DFN0603-2" value="" x="31.115" y="55.499" smashed="yes" rot="R270"/>
+<element name="D1" library="Components" package="DFN0603-2" value="" x="66.04" y="19.05" smashed="yes">
+<attribute name="MF" value="" x="66.04" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.04" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.04" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D10" library="Components" package="DFN0603-2" value="" x="57.15" y="68.58" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="57.15" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="57.15" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="57.15" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D11" library="Components" package="DFN0603-2" value="" x="39.37" y="68.58" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="39.37" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="39.37" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="39.37" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D12" library="Components" package="DFN0603-2" value="" x="36.83" y="68.58" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="36.83" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="36.83" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="36.83" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D2" library="Components" package="DFN0603-2" value="" x="50.165" y="17.399" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="50.165" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="50.165" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="50.165" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D3" library="Components" package="DFN0603-2" value="" x="31.115" y="17.399" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.115" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="31.115" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="31.115" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D4" library="Components" package="DFN0603-2" value="" x="66.04" y="38.1" smashed="yes">
+<attribute name="MF" value="" x="66.04" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.04" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.04" y="38.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="Components" package="DFN0603-2" value="" x="50.165" y="36.449" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="50.165" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="50.165" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="50.165" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D6" library="Components" package="DFN0603-2" value="" x="31.115" y="36.449" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.115" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="31.115" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="31.115" y="36.449" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D7" library="Components" package="DFN0603-2" value="" x="66.04" y="57.15" smashed="yes">
+<attribute name="MF" value="" x="66.04" y="57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.04" y="57.15" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.04" y="57.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D8" library="Components" package="DFN0603-2" value="" x="50.165" y="55.499" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="50.165" y="55.499" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="50.165" y="55.499" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="50.165" y="55.499" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D9" library="Components" package="DFN0603-2" value="" x="31.115" y="55.499" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.115" y="55.499" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="31.115" y="55.499" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="31.115" y="55.499" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="F1" library="USB" package="F0805" value="" x="13.335" y="64.008" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="13.335" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="13.335" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.46" y="64.024" size="1.016" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="13.335" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.235" y="63.008" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="R1" library="Components" package="R0603" value="10k" x="9.398" y="13.97" smashed="yes" rot="R180">
+<attribute name="MF" value="" x="9.398" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="9.398" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="9.436" y="13.193" size="1" layer="25" ratio="13" rot="R180" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="9.398" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="Components" package="R0603" value="10k" x="12.446" y="52.07" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="12.446" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="12.446" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.239" y="52.108" size="1" layer="25" ratio="13" rot="R270" align="top-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="12.446" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="Components" package="R0603" value="22" x="9.525" y="52.07" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="9.525" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="9.525" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.175" y="52.108" size="1" layer="25" ratio="13" rot="R270" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="9.525" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="Components" package="R0603" value="22" x="7.874" y="52.07" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="7.874" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="7.874" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="7.127" y="52.108" size="1" layer="25" ratio="13" rot="R270" align="top-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="7.874" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SW00" library="Hardware" package="SWITCH-SMD-EVQP-P2602W" value="SWITCH-SMD-EVQP-P2602W" x="9.525" y="9.398" smashed="yes">
+<attribute name="MF" value="" x="9.525" y="9.398" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="9.525" y="9.398" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.525" y="6.198" size="1.27" layer="21" font="vector" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="9.525" y="9.398" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW01" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.675" y="9.525" smashed="yes">
+<attribute name="MF" value="" x="66.675" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.675" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66.675" y="6.725" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.675" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW02" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.625" y="9.525" smashed="yes">
+<attribute name="MF" value="" x="47.625" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="47.625" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.625" y="6.725" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="47.625" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW03" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.575" y="9.525" smashed="yes">
+<attribute name="MF" value="" x="28.575" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="28.575" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.575" y="6.725" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="28.575" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW04" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.675" y="28.575" smashed="yes">
+<attribute name="MF" value="" x="66.675" y="28.575" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.675" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66.675" y="25.775" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.675" y="28.575" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW05" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.625" y="28.575" smashed="yes">
+<attribute name="MF" value="" x="47.625" y="28.575" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="47.625" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.625" y="25.775" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="47.625" y="28.575" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW06" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.575" y="28.575" smashed="yes">
+<attribute name="MF" value="" x="28.575" y="28.575" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="28.575" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.575" y="25.775" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="28.575" y="28.575" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW07" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.675" y="47.625" smashed="yes">
+<attribute name="MF" value="" x="66.675" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.675" y="47.625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66.675" y="44.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.675" y="47.625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW08" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.625" y="47.625" smashed="yes">
+<attribute name="MF" value="" x="47.625" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="47.625" y="47.625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.625" y="44.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="47.625" y="47.625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW09" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.575" y="47.625" smashed="yes">
+<attribute name="MF" value="" x="28.575" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="28.575" y="47.625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.575" y="44.825" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="28.575" y="47.625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW10" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.675" y="66.675" smashed="yes">
+<attribute name="MF" value="" x="66.675" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.675" y="66.675" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66.675" y="63.875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.675" y="66.675" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW11" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.625" y="66.675" smashed="yes">
+<attribute name="MF" value="" x="47.625" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="47.625" y="66.675" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.625" y="63.875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="47.625" y="66.675" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW12" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="28.575" y="66.675" smashed="yes">
+<attribute name="MF" value="" x="28.575" y="66.675" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="28.575" y="66.675" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.575" y="63.875" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="28.575" y="66.675" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="Controller" package="QFN-44" value="ATMEGA32U4-QFN44" x="9.525" y="38.1" smashed="yes" rot="R44.6"/>
+<element name="U$1" library="Controller" package="QFN-44" value="ATMEGA32U4-QFN44" x="9.525" y="38.1" smashed="yes" rot="R44.6">
+<attribute name="MF" value="" x="9.525" y="38.1" size="1.778" layer="27" rot="R44.6" display="off"/>
+<attribute name="MPN" value="" x="9.525" y="38.1" size="1.778" layer="27" rot="R44.6" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="9.525" y="38.1" size="1.778" layer="27" rot="R44.6" display="off"/>
+</element>
 <element name="USB1" library="Controller" package="UX60-MB-5S8" value="" x="9.525" y="76.2" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="9.525" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="9.525" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="9.525" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.81" y="74.93" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Y1" library="Components" package="CRYSTAL-3.2X2.5" value="" x="11.811" y="28.575" smashed="yes" rot="R180">
+<attribute name="MF" value="" x="11.811" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="11.811" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="11.811" y="26.925" size="1.27" layer="21" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="OC_NEWARK" value="unknown" x="11.811" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="11.811" y="30.225" size="1.27" layer="21" font="vector" rot="R180" align="top-center"/>
 </element>
 <element name="C9" library="Components" package="C0603" value="0.1u" x="7.493" y="43.434" smashed="yes" rot="R226">
+<attribute name="MF" value="" x="7.493" y="43.434" size="1.778" layer="27" rot="R226" display="off"/>
+<attribute name="MPN" value="" x="7.493" y="43.434" size="1.778" layer="27" rot="R226" display="off"/>
 <attribute name="NAME" x="6.35729375" y="42.160940625" size="1" layer="25" ratio="13" rot="R226" align="center-left"/>
+<attribute name="OC_NEWARK" value="unknown" x="7.493" y="43.434" size="1.778" layer="27" rot="R226" display="off"/>
 </element>
 </elements>
 <signals>
