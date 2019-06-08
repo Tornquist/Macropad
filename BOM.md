@@ -4,7 +4,7 @@
 |:-----------------|:-------------|:------------------|---------:|-----------:|------------:|
 | Cherry MX Switch | Through Hole |                   |       12 |     $0.840 |     $10.080 |
 | 1N4148 Diode     | Through Hole | [512-1N4148](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=sGAEpiMZZMudZehw8RjeZWbu6z6oTQTL) |       12 |     $0.174 |      $2.088 |
-| ATMEGA32U4-MU    | QFN44        |                   |        1 |     $4.090 |      $4.090 |
+| ATMEGA32U4RC-AU  | TQFP-44      | [556-ATMEGA32U4RC-AU](https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATMEGA32U4RC-AU?qs=sGAEpiMZZMsYqpeQgG6TRW%252BiA%252BrYIJEZ) |        1 |     $4.090 |      $4.090 |
 | 16MHz Crystal    | 3.2x2.5      |                   |        1 |     $0.340 |      $0.340 |
 | 22p Cap          | 0603         |                   |        2 |     $0.104 |      $0.208 |
 | 4.7u Cap         | 0603         |                   |        1 |     $0.110 |      $0.110 |
