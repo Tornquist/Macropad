@@ -336,6 +336,45 @@ Note- Available clearance varies from computer to computer. This distance has be
 <smd name="SHIELD@3" x="-5.08" y="3.81" dx="0.3048" dy="0.1524" layer="1"/>
 <smd name="SHIELD@4" x="-6.35" y="3.81" dx="0.3048" dy="0.1524" layer="1"/>
 </package>
+<package name="CRYSTAL-3.2X2.5">
+<smd name="3" x="1.15" y="0.925" dx="1.3" dy="1.05" layer="1"/>
+<smd name="2" x="1.15" y="-0.925" dx="1.3" dy="1.05" layer="1"/>
+<smd name="1" x="-1.15" y="-0.925" dx="1.3" dy="1.05" layer="1"/>
+<smd name="4" x="-1.15" y="0.925" dx="1.3" dy="1.05" layer="1"/>
+<rectangle x1="-1.8" y1="-1.4" x2="1.8" y2="1.4" layer="39"/>
+<wire x1="-1.6" y1="0.15" x2="-1.6" y2="-0.15" width="0.127" layer="47"/>
+<wire x1="1.6" y1="0.15" x2="1.6" y2="-0.15" width="0.127" layer="47"/>
+<wire x1="-0.3" y1="-1.25" x2="0.3" y2="-1.25" width="0.127" layer="47"/>
+<wire x1="-0.3" y1="1.25" x2="0.3" y2="1.25" width="0.127" layer="47"/>
+<wire x1="-1.9" y1="1.55" x2="-1.1" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.55" x2="-1.9" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.55" x2="-1.1" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-1.55" x2="1.9" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-1.55" x2="1.9" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.1" y1="1.55" x2="1.9" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.9" y1="1.55" x2="1.9" y2="0.8" width="0.127" layer="21"/>
+<text x="0" y="1.65" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.65" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CRYSTAL-3.2X5">
+<description>3.2 x 5 mm crystal</description>
+<smd name="3" x="2" y="1.2" dx="1.8" dy="1.2" layer="1"/>
+<smd name="2" x="2" y="-1.2" dx="1.8" dy="1.2" layer="1"/>
+<smd name="1" x="-2" y="-1.2" dx="1.8" dy="1.2" layer="1"/>
+<smd name="4" x="-2" y="1.2" dx="1.8" dy="1.2" layer="1"/>
+<rectangle x1="-2.6" y1="-1.7" x2="2.6" y2="1.7" layer="39"/>
+<wire x1="-3.125" y1="2" x2="-1.1" y2="2" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="2" x2="-3.125" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="-0.75" x2="-3.125" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.125" y1="-2" x2="-1.1" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-2" x2="3.125" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.125" y1="-2" x2="3.125" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="1.1" y1="2" x2="3.125" y2="2" width="0.127" layer="21"/>
+<wire x1="3.125" y1="2" x2="3.125" y2="0.75" width="0.127" layer="21"/>
+<text x="0" y="2.25" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.25" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -370,6 +409,22 @@ Note- Available clearance varies from computer to computer. This distance has be
 <pin name="SHIELD@2" x="2.54" y="-12.7" length="middle" rot="R180"/>
 <pin name="SHIELD@3" x="2.54" y="-15.24" length="middle" rot="R180"/>
 <pin name="SHIELD@4" x="2.54" y="-17.78" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CRYSTAL-4PAD">
+<wire x1="-3.683" y1="1.524" x2="-3.683" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-3.683" y1="-1.524" x2="-1.397" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-1.397" y1="-1.524" x2="-1.397" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.397" y1="1.524" x2="-3.683" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="1.778" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.778" x2="-5.08" y2="-1.778" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="5.08" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<text x="-4.699" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="-1.016" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="GND" x="-2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="-3.048" y="-2.667" size="0.8636" layer="93" align="top-right">GND</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -428,50 +483,38 @@ Note- Available clearance varies from computer to computer. This distance has be
 </device>
 </devices>
 </deviceset>
+<deviceset name="CRYSTAL-4PIN" prefix="Y" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CRYSTAL-4PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-3.2X2.5" package="CRYSTAL-3.2X2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3.2X5" package="CRYSTAL-3.2X5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="Components">
 <description>Standard Components used in nearly every electrical design</description>
 <packages>
-<package name="CRYSTAL-3.2X2.5">
-<smd name="3" x="1.15" y="0.925" dx="1.3" dy="1.05" layer="1"/>
-<smd name="2" x="1.15" y="-0.925" dx="1.3" dy="1.05" layer="1"/>
-<smd name="1" x="-1.15" y="-0.925" dx="1.3" dy="1.05" layer="1"/>
-<smd name="4" x="-1.15" y="0.925" dx="1.3" dy="1.05" layer="1"/>
-<rectangle x1="-1.8" y1="-1.4" x2="1.8" y2="1.4" layer="39"/>
-<wire x1="-1.6" y1="0.15" x2="-1.6" y2="-0.15" width="0.127" layer="47"/>
-<wire x1="1.6" y1="0.15" x2="1.6" y2="-0.15" width="0.127" layer="47"/>
-<wire x1="-0.3" y1="-1.25" x2="0.3" y2="-1.25" width="0.127" layer="47"/>
-<wire x1="-0.3" y1="1.25" x2="0.3" y2="1.25" width="0.127" layer="47"/>
-<wire x1="-1.9" y1="1.55" x2="-1.1" y2="1.55" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="1.55" x2="-1.9" y2="0.4" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.55" x2="-1.1" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-1.55" x2="1.9" y2="-1.55" width="0.127" layer="21"/>
-<wire x1="1.9" y1="-1.55" x2="1.9" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="1.1" y1="1.55" x2="1.9" y2="1.55" width="0.127" layer="21"/>
-<wire x1="1.9" y1="1.55" x2="1.9" y2="0.8" width="0.127" layer="21"/>
-<text x="0" y="1.65" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.65" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CRYSTAL-3.2X5">
-<description>3.2 x 5 mm crystal</description>
-<smd name="3" x="2" y="1.2" dx="1.8" dy="1.2" layer="1"/>
-<smd name="2" x="2" y="-1.2" dx="1.8" dy="1.2" layer="1"/>
-<smd name="1" x="-2" y="-1.2" dx="1.8" dy="1.2" layer="1"/>
-<smd name="4" x="-2" y="1.2" dx="1.8" dy="1.2" layer="1"/>
-<rectangle x1="-2.6" y1="-1.7" x2="2.6" y2="1.7" layer="39"/>
-<wire x1="-3.125" y1="2" x2="-1.1" y2="2" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="2" x2="-3.125" y2="0.75" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="-0.75" x2="-3.125" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3.125" y1="-2" x2="-1.1" y2="-2" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-2" x2="3.125" y2="-2" width="0.127" layer="21"/>
-<wire x1="3.125" y1="-2" x2="3.125" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="1.1" y1="2" x2="3.125" y2="2" width="0.127" layer="21"/>
-<wire x1="3.125" y1="2" x2="3.125" y2="0.75" width="0.127" layer="21"/>
-<text x="0" y="2.25" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.25" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
-</package>
 <package name="C0603">
 <wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
 <wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="51"/>
@@ -612,22 +655,6 @@ Note- Available clearance varies from computer to computer. This distance has be
 </package>
 </packages>
 <symbols>
-<symbol name="CRYSTAL-4PAD">
-<wire x1="-3.683" y1="1.524" x2="-3.683" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-3.683" y1="-1.524" x2="-1.397" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-1.397" y1="-1.524" x2="-1.397" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-1.397" y1="1.524" x2="-3.683" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="1.778" x2="0" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="1.778" x2="-5.08" y2="-1.778" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="-2.54" y="5.08" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
-<text x="-4.699" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="-1.016" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="GND" x="-2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<text x="-3.048" y="-2.667" size="0.8636" layer="93" align="top-right">GND</text>
-</symbol>
 <symbol name="CAPACITOR">
 <wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
@@ -650,33 +677,6 @@ Note- Available clearance varies from computer to computer. This distance has be
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRYSTAL-4PIN" prefix="Y" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="CRYSTAL-4PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-3.2X2.5" package="CRYSTAL-3.2X2.5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3.2X5" package="CRYSTAL-3.2X5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -11074,11 +11074,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="Y1" library="Components" deviceset="CRYSTAL-4PIN" device="-3.2X2.5">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -11237,6 +11232,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="D11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 <part name="U1" library="ATMEGA32U4-AUR" deviceset="ATMEGA32U4-AUR" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="Y1" library="Controller" deviceset="CRYSTAL-4PIN" device="-3.2X5"/>
 </parts>
 <sheets>
 <sheet>
@@ -11249,13 +11245,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OC_NEWARK" x="30.48" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="30.48" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="30.48" y="81.28" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="Y1" gate="G$1" x="104.14" y="33.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.68" y="35.56" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="109.22" y="35.56" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="OC_NEWARK" x="104.14" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="104.14" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="104.14" y="33.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="86.36" y="35.56" smashed="yes" rot="R270">
 <attribute name="VALUE" x="83.185" y="37.465" size="1.778" layer="96" rot="R270"/>
@@ -11515,13 +11504,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY9" gate="GND" x="116.84" y="33.02" smashed="yes">
 <attribute name="VALUE" x="114.935" y="29.845" size="1.778" layer="96"/>
 </instance>
+<instance part="Y1" gate="G$1" x="104.14" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="106.68" y="35.56" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="109.22" y="35.56" size="1.778" layer="96" font="vector" rot="R270" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="30.48" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 <junction x="104.14" y="27.94"/>
 <wire x1="101.6" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
@@ -11530,18 +11522,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="170.18" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="104.14" y1="78.74" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="40.64" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
 <junction x="104.14" y="43.18"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="A" pin="XTAL1"/>
 <wire x1="104.14" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11952,10 +11945,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="91.44" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <junction x="88.9" y="35.56"/>
-<pinref part="Y1" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="Y1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
