@@ -11141,7 +11141,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="SW00" library="Hardware" deviceset="SWITCH-SMD" device="-EVQP-P2602W">
+<part name="RESET" library="Hardware" deviceset="SWITCH-SMD" device="-EVQP-P2602W">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -11176,22 +11176,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value="04025A220JAT2A"/>
 <attribute name="OC_NEWARK" value="96M1143"/>
 </part>
-<part name="C8" library="Components" deviceset="CAPACITOR" device="-0603" value="1u">
+<part name="C3" library="Components" deviceset="CAPACITOR" device="-0603" value="1u">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C4" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
+<part name="C8" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C5" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="C6" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
+<part name="C9" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -11201,7 +11196,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C3" library="Components" deviceset="CAPACITOR" device="-0603" value="4.7u">
+<part name="C6" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="C5" library="Components" deviceset="CAPACITOR" device="-0603" value="4.7u">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -11212,7 +11212,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C9" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
+<part name="C4" library="Components" deviceset="CAPACITOR" device="-0603" value="0.1u">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -11339,7 +11339,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="276.86" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="276.86" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SW00" gate="G$1" x="91.44" y="106.68" smashed="yes">
+<instance part="RESET" gate="G$1" x="91.44" y="106.68" smashed="yes">
 <attribute name="NAME" x="91.44" y="104.394" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="OC_NEWARK" x="91.44" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="91.44" y="106.68" size="1.778" layer="96" display="off"/>
@@ -11387,47 +11387,47 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="96.52" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="96.52" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="88.9" y="86.36" smashed="yes" rot="R180">
+<instance part="C3" gate="G$1" x="88.9" y="86.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="93.98" y="85.852" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="87.884" y="86.614" size="1.778" layer="96" rot="R180" align="top-left"/>
 <attribute name="OC_NEWARK" x="88.9" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="88.9" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="88.9" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="20.32" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.828" y="45.72" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="20.066" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
-<attribute name="OC_NEWARK" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C5" gate="G$1" x="27.94" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.448" y="45.72" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="27.686" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
-<attribute name="OC_NEWARK" x="27.94" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="27.94" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="27.94" y="40.64" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C6" gate="G$1" x="35.56" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.068" y="45.72" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="35.306" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
-<attribute name="OC_NEWARK" x="35.56" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="35.56" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="35.56" y="40.64" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C7" gate="G$1" x="43.18" y="40.64" smashed="yes" rot="R270">
+<instance part="C8" gate="G$1" x="43.18" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.688" y="45.72" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="42.926" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
 <attribute name="OC_NEWARK" x="43.18" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="43.18" y="40.64" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="43.18" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.208" y="45.72" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="12.446" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
-<attribute name="OC_NEWARK" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
+<instance part="C9" gate="G$1" x="50.8" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.308" y="45.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="50.546" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
+<attribute name="OC_NEWARK" x="50.8" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="50.8" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="50.8" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="35.56" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.068" y="45.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="35.306" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
+<attribute name="OC_NEWARK" x="35.56" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="35.56" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="35.56" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="27.94" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.448" y="45.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="27.686" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
+<attribute name="OC_NEWARK" x="27.94" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="27.94" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="20.32" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.828" y="45.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="20.066" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
+<attribute name="OC_NEWARK" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="20.32" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F1" gate="G$1" x="12.7" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.24" y="71.12" size="1.778" layer="95" rot="R90"/>
@@ -11439,12 +11439,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY10" gate="GND" x="12.7" y="63.5" smashed="yes">
 <attribute name="VALUE" x="10.795" y="60.325" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="50.8" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.308" y="45.72" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="50.546" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
-<attribute name="OC_NEWARK" x="50.8" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="50.8" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="50.8" y="40.64" size="1.778" layer="96" display="off"/>
+<instance part="C4" gate="G$1" x="12.7" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.208" y="45.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="12.446" y="39.624" size="1.778" layer="96" rot="R270" align="top-left"/>
+<attribute name="OC_NEWARK" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="12.7" y="30.48" smashed="yes">
 <attribute name="VALUE" x="10.795" y="27.305" size="1.778" layer="96"/>
@@ -11539,24 +11539,24 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="43.18" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
-<wire x1="35.56" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="48.26" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<junction x="12.7" y="45.72"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<junction x="20.32" y="45.72"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<junction x="27.94" y="45.72"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<junction x="35.56" y="45.72"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <junction x="43.18" y="45.72"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<junction x="50.8" y="45.72"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<junction x="35.56" y="45.72"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<junction x="27.94" y="45.72"/>
+<wire x1="12.7" y1="45.72" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<junction x="12.7" y="45.72"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
@@ -11598,7 +11598,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="SW00" gate="G$1" pin="2"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="106.68" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="~RESET"/>
 <wire x1="99.06" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -11612,7 +11612,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="UCAP" class="0">
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="U1" gate="A" pin="UCAP"/>
 <wire x1="96.52" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
@@ -11910,24 +11910,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="12.7" y1="66.04" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<junction x="43.18" y="35.56"/>
-<wire x1="43.18" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<junction x="35.56" y="35.56"/>
-<wire x1="35.56" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<junction x="27.94" y="35.56"/>
-<wire x1="27.94" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<junction x="20.32" y="35.56"/>
-<wire x1="20.32" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<junction x="12.7" y="35.56"/>
-<wire x1="12.7" y1="33.02" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
+<junction x="27.94" y="35.56"/>
+<wire x1="27.94" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<junction x="35.56" y="35.56"/>
+<wire x1="35.56" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<junction x="50.8" y="35.56"/>
+<wire x1="50.8" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<junction x="43.18" y="35.56"/>
+<wire x1="43.18" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="12.7" y1="35.56" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
+<junction x="12.7" y="35.56"/>
 </segment>
 <segment>
 <pinref part="USB1" gate="G$1" pin="GND"/>
@@ -11936,7 +11936,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="55.88" y="86.36"/>
 <wire x1="55.88" y1="86.36" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
@@ -11953,7 +11953,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="83.82" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="SW00" gate="G$1" pin="1"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>

@@ -830,37 +830,37 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.333" y="26.708" size="1" layer="25" ratio="13" rot="R270" align="top-center"/>
 <attribute name="OC_NEWARK" value="96M1143" x="5.08" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C3" library="Components" package="C0603" value="4.7u" x="4.953" y="46.101" smashed="yes" rot="R225">
+<element name="C5" library="Components" package="C0603" value="4.7u" x="4.953" y="46.101" smashed="yes" rot="R225">
 <attribute name="MF" value="" x="4.953" y="46.101" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="MPN" value="" x="4.953" y="46.101" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="NAME" x="4.436253125" y="46.606115625" size="1" layer="25" ratio="13" rot="R225" align="top-center"/>
 <attribute name="OC_NEWARK" value="unknown" x="4.953" y="46.101" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
-<element name="C4" library="Components" package="C0603" value="0.1u" x="6.35" y="34.925" smashed="yes" rot="MR45">
+<element name="C8" library="Components" package="C0603" value="0.1u" x="6.35" y="34.925" smashed="yes" rot="MR45">
 <attribute name="MF" value="" x="6.35" y="34.925" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MPN" value="" x="6.35" y="34.925" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="6.867303125" y="35.45393125" size="1" layer="26" ratio="13" rot="MR45" align="bottom-center"/>
 <attribute name="OC_NEWARK" value="unknown" x="6.35" y="34.925" size="1.778" layer="28" rot="MR45" display="off"/>
 </element>
-<element name="C5" library="Components" package="C0603" value="0.1u" x="3.81" y="38.735" smashed="yes" rot="MR135">
+<element name="C9" library="Components" package="C0603" value="0.1u" x="3.81" y="38.735" smashed="yes" rot="MR135">
 <attribute name="MF" value="" x="3.81" y="38.735" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MPN" value="" x="3.81" y="38.735" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="4.33893125" y="38.217690625" size="1" layer="26" ratio="13" rot="MR135" align="bottom-center"/>
 <attribute name="OC_NEWARK" value="unknown" x="3.81" y="38.735" size="1.778" layer="28" rot="MR135" display="off"/>
 </element>
-<element name="C6" library="Components" package="C0603" value="0.1u" x="11.557" y="33.909" smashed="yes" rot="MR135">
+<element name="C7" library="Components" package="C0603" value="0.1u" x="11.557" y="33.909" smashed="yes" rot="MR135">
 <attribute name="MF" value="" x="11.557" y="33.909" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MPN" value="" x="11.557" y="33.909" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="11.06993125" y="34.28069375" size="1" layer="26" ratio="13" rot="MR135" align="top-center"/>
 <attribute name="OC_NEWARK" value="unknown" x="11.557" y="33.909" size="1.778" layer="28" rot="MR135" display="off"/>
 </element>
-<element name="C7" library="Components" package="C0603" value="0.1u" x="14.986" y="38.481" smashed="yes" rot="MR225">
+<element name="C6" library="Components" package="C0603" value="0.1u" x="14.986" y="38.481" smashed="yes" rot="MR225">
 <attribute name="MF" value="" x="14.986" y="38.481" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="MPN" value="" x="14.986" y="38.481" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="14.46869375" y="37.952065625" size="1" layer="26" ratio="13" rot="MR225" align="bottom-center"/>
 <attribute name="OC_NEWARK" value="unknown" x="14.986" y="38.481" size="1.778" layer="28" rot="MR225" display="off"/>
 </element>
-<element name="C8" library="Components" package="C0603" value="1u" x="3.556" y="30.48" smashed="yes" rot="R270">
+<element name="C3" library="Components" package="C0603" value="1u" x="3.556" y="30.48" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="3.556" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="3.556" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="4.206" y="30.391" size="1" layer="25" ratio="13" rot="R270" align="bottom-center"/>
@@ -897,7 +897,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.127" y="52.108" size="1" layer="25" ratio="13" rot="R270" align="top-center"/>
 <attribute name="OC_NEWARK" value="unknown" x="7.874" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SW00" library="Hardware" package="SWITCH-SMD-EVQP-P2602W" value="SWITCH-SMD-EVQP-P2602W" x="9.525" y="9.398" smashed="yes">
+<element name="RESET" library="Hardware" package="SWITCH-SMD-EVQP-P2602W" value="SWITCH-SMD-EVQP-P2602W" x="9.525" y="9.398" smashed="yes">
 <attribute name="MF" value="" x="9.525" y="9.398" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="9.525" y="9.398" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.525" y="6.198" size="1.27" layer="21" font="vector" align="bottom-center"/>
@@ -981,7 +981,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="9.525" y="76.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.81" y="74.93" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C9" library="Components" package="C0603" value="0.1u" x="5.969" y="45.085" smashed="yes" rot="R226">
+<element name="C4" library="Components" package="C0603" value="0.1u" x="5.969" y="45.085" smashed="yes" rot="R226">
 <attribute name="MF" value="" x="5.969" y="45.085" size="1.778" layer="27" rot="R226" display="off"/>
 <attribute name="MPN" value="" x="5.969" y="45.085" size="1.778" layer="27" rot="R226" display="off"/>
 <attribute name="NAME" x="4.83329375" y="43.811940625" size="1" layer="25" ratio="13" rot="R226" align="center-left"/>
@@ -1077,11 +1077,11 @@ design rules under a new name.</description>
 <wire x1="11.709" y1="27.686" x2="14.224" y2="27.686" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
-<contactref element="C3" pad="1"/>
-<contactref element="C4" pad="1"/>
 <contactref element="C5" pad="1"/>
-<contactref element="C6" pad="1"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C9" pad="1"/>
 <contactref element="C7" pad="1"/>
+<contactref element="C6" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="USB1" pad="VCC"/>
 <wire x1="15.192784375" y1="39.925215625" x2="14.367284375" y2="39.099715625" width="0.254" layer="16"/>
@@ -1090,7 +1090,7 @@ design rules under a new name.</description>
 <wire x1="2.175284375" y1="43.925715625" x2="2.175284375" y2="39.13228125" width="0.254" layer="16"/>
 <wire x1="2.175284375" y1="39.13228125" x2="3.191284375" y2="38.11628125" width="0.254" layer="16"/>
 <wire x1="11.125" y1="48.26" x2="11.125" y2="67.55" width="0.508" layer="1"/>
-<contactref element="C9" pad="1"/>
+<contactref element="C4" pad="1"/>
 <wire x1="7.5940625" y1="47.608715625" x2="7.577778125" y2="47.625" width="0.508" layer="1"/>
 <wire x1="6.460715625" y1="47.608715625" x2="5.571715625" y2="46.719715625" width="0.508" layer="1"/>
 <via x="11.125" y="47.625" extent="1-16" drill="0.3048"/>
@@ -1178,8 +1178,8 @@ design rules under a new name.</description>
 <wire x1="9.57221875" y1="33.702215625" x2="10.112784375" y2="34.24278125" width="0.508" layer="16"/>
 </signal>
 <signal name="N$3">
-<contactref element="SW00" pad="2A"/>
-<contactref element="SW00" pad="2B"/>
+<contactref element="RESET" pad="2A"/>
+<contactref element="RESET" pad="2B"/>
 <wire x1="12.095" y1="10.398" x2="6.955" y2="10.398" width="0.254" layer="1"/>
 <wire x1="6.955" y1="10.398" x2="6.955" y2="12.402" width="0.254" layer="1"/>
 <contactref element="U1" pad="13"/>
@@ -1195,7 +1195,7 @@ design rules under a new name.</description>
 <wire x1="8.509" y1="17.145" x2="8.509" y2="13.984" width="0.254" layer="1"/>
 </signal>
 <signal name="UCAP">
-<contactref element="C8" pad="1"/>
+<contactref element="C3" pad="1"/>
 <wire x1="3.556" y1="32.131" x2="3.556" y2="31.355" width="0.254" layer="1"/>
 <contactref element="U1" pad="6"/>
 <wire x1="5.465921875" y1="34.040921875" x2="3.556" y2="32.131" width="0.254" layer="1"/>
@@ -1501,20 +1501,20 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="F1" pad="1"/>
 <contactref element="USB1" pad="GND"/>
-<contactref element="C8" pad="2"/>
-<via x="7.874" y="65.151" extent="1-16" drill="0.3048"/>
 <contactref element="C3" pad="2"/>
-<contactref element="C4" pad="2"/>
+<via x="7.874" y="65.151" extent="1-16" drill="0.3048"/>
 <contactref element="C5" pad="2"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C7" pad="2"/>
+<contactref element="C8" pad="2"/>
 <contactref element="C9" pad="2"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C4" pad="2"/>
 <wire x1="12.17571875" y1="34.527715625" x2="12.17571875" y2="34.17928125" width="0.254" layer="16"/>
 <wire x1="4.33428125" y1="45.48228125" x2="4.33428125" y2="45.042165625" width="0.254" layer="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
-<contactref element="SW00" pad="1A"/>
-<contactref element="SW00" pad="1B"/>
+<contactref element="RESET" pad="1A"/>
+<contactref element="RESET" pad="1B"/>
 <contactref element="R2" pad="1"/>
 <wire x1="5.08" y1="27.545" x2="5.13" y2="27.595" width="0.254" layer="1"/>
 <wire x1="13.335" y1="63.008" x2="13.335" y2="61.341" width="0.254" layer="1"/>
