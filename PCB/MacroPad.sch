@@ -777,202 +777,6 @@ Note- Available clearance varies from computer to computer. This distance has be
 <wire x1="-2.625" y1="-1.25" x2="2.625" y2="-1.25" width="0.25" layer="22"/>
 <wire x1="2.625" y1="1.25" x2="2.625" y2="-1.25" width="0.25" layer="22"/>
 </package>
-<package name="SOD-323">
-<description>SOD-123 footprint</description>
-<wire x1="-1.325" y1="-1" x2="-1.325" y2="1" width="0.127" layer="51"/>
-<wire x1="1.325" y1="1" x2="1.325" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1.325" y1="1.5" x2="1.325" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.325" y1="-1.5" x2="-1.325" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
-<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
-<smd name="C" x="1.55" y="0" dx="0.9" dy="0.95" layer="1" rot="R270"/>
-<smd name="A" x="-1.55" y="0" dx="0.9" dy="0.95" layer="1" rot="R270"/>
-<rectangle x1="1.2" y1="-0.4" x2="1.95" y2="0.45" layer="51" rot="R180"/>
-<rectangle x1="-1.95" y1="-0.4" x2="-1.2" y2="0.45" layer="51" rot="R180"/>
-<text x="0" y="1.77" size="1" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.77" size="1" layer="21" font="vector" ratio="13" align="top-center">&gt;VALUE</text>
-<text x="2.25" y="0" size="0.75" layer="21" align="center-left">K</text>
-</package>
-<package name="DO-35">
-<pad name="A" x="4.82" y="0" drill="1" diameter="2" shape="square"/>
-<pad name="C" x="-4.82" y="0" drill="1" diameter="2"/>
-<wire x1="-3.683" y1="-1.27" x2="-3.683" y2="1.27" width="0.2" layer="21"/>
-<wire x1="3.683" y1="1.27" x2="3.683" y2="-1.27" width="0.2" layer="21"/>
-<wire x1="-3.683" y1="1.27" x2="3.683" y2="1.27" width="0.2" layer="21"/>
-<wire x1="3.683" y1="-1.27" x2="-3.683" y2="-1.27" width="0.2" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
-<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
-<text x="0" y="1.905" size="1.5" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
-<wire x1="3" y1="1.25" x2="3" y2="-1.25" width="0.2" layer="21"/>
-</package>
-<package name="DIODE_HAND">
-<pad name="C2" x="3.5" y="0" drill="1" diameter="1.9" shape="square"/>
-<pad name="A2" x="-3.5" y="0" drill="1" diameter="1.9"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
-<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
-<text x="0" y="1.905" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.27" layer="21" font="vector" align="top-center">&gt;VALUE</text>
-<smd name="C1" x="1.651" y="0" dx="1.397" dy="1.397" layer="1" rot="R180"/>
-<smd name="A1" x="-1.651" y="0" dx="1.397" dy="1.397" layer="1" rot="R180"/>
-<smd name="A3" x="-1.651" y="0" dx="1.397" dy="1.397" layer="16"/>
-<smd name="C3" x="1.651" y="0" dx="1.397" dy="1.397" layer="16"/>
-<wire x1="2.6" y1="0.8" x2="2.6" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="2.6" y1="0.8" x2="2.6" y2="-0.8" width="0.127" layer="22"/>
-<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.25" layer="22"/>
-<wire x1="2.6" y1="1.2" x2="2.6" y2="-1.2" width="0.25" layer="21"/>
-<wire x1="2.5" y1="1" x2="-2.5" y2="1" width="0.25" layer="21"/>
-<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.25" layer="21"/>
-<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.25" layer="21"/>
-<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.25" layer="22"/>
-<wire x1="2.5" y1="-1" x2="-2.5" y2="-1" width="0.25" layer="22"/>
-<wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.25" layer="22"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="22"/>
-<wire x1="-0.381" y1="0.635" x2="-0.381" y2="0.508" width="0.127" layer="22"/>
-<wire x1="-0.381" y1="0.508" x2="-0.381" y2="0.381" width="0.127" layer="22"/>
-<wire x1="-0.381" y1="0.381" x2="-0.381" y2="-0.635" width="0.127" layer="22"/>
-<wire x1="-0.381" y1="-0.635" x2="0.381" y2="0" width="0.127" layer="22"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="0.508" width="0.127" layer="22"/>
-<wire x1="-0.381" y1="0.508" x2="-0.254" y2="-0.508" width="0.127" layer="22"/>
-<wire x1="-0.254" y1="-0.508" x2="0.254" y2="0" width="0.127" layer="22"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="0.381" width="0.127" layer="22"/>
-<wire x1="-0.381" y1="0.381" x2="-0.254" y2="-0.381" width="0.127" layer="22"/>
-<wire x1="-0.254" y1="-0.381" x2="0.127" y2="0" width="0.127" layer="22"/>
-<wire x1="0.127" y1="0" x2="-0.254" y2="0.254" width="0.127" layer="22"/>
-<wire x1="-0.254" y1="0.254" x2="-0.254" y2="0.127" width="0.127" layer="22"/>
-<wire x1="-0.254" y1="0.127" x2="-0.254" y2="-0.254" width="0.127" layer="22"/>
-<wire x1="-0.254" y1="-0.254" x2="-0.127" y2="-0.127" width="0.127" layer="22"/>
-<wire x1="-0.127" y1="-0.127" x2="0" y2="0" width="0.127" layer="22"/>
-<wire x1="0" y1="0" x2="-0.254" y2="0.127" width="0.127" layer="22"/>
-<wire x1="-0.254" y1="0.127" x2="-0.127" y2="-0.127" width="0.127" layer="22"/>
-<wire x1="-0.127" y1="-0.127" x2="-0.127" y2="0" width="0.127" layer="22"/>
-</package>
-<package name="SOD-123FL">
-<description>SOD-123 footprint</description>
-<wire x1="1.35" y1="-0.875" x2="-1.35" y2="-0.875" width="0.127" layer="21"/>
-<wire x1="-1.35" y1="0.875" x2="1.35" y2="0.875" width="0.127" layer="21"/>
-<wire x1="0.284" y1="0" x2="1.046" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.046" y1="0.635" x2="1.046" y2="0.508" width="0.127" layer="21"/>
-<wire x1="1.046" y1="0.508" x2="1.046" y2="0.381" width="0.127" layer="21"/>
-<wire x1="1.046" y1="0.381" x2="1.046" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.046" y1="-0.635" x2="0.284" y2="0" width="0.127" layer="21"/>
-<wire x1="0.284" y1="0" x2="1.046" y2="0.508" width="0.127" layer="21"/>
-<wire x1="1.046" y1="0.508" x2="0.919" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="0.919" y1="-0.508" x2="0.411" y2="0" width="0.127" layer="21"/>
-<wire x1="0.411" y1="0" x2="1.046" y2="0.381" width="0.127" layer="21"/>
-<wire x1="1.046" y1="0.381" x2="0.919" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="0.919" y1="-0.381" x2="0.538" y2="0" width="0.127" layer="21"/>
-<wire x1="0.538" y1="0" x2="0.919" y2="0.254" width="0.127" layer="21"/>
-<wire x1="0.919" y1="0.254" x2="0.919" y2="0.127" width="0.127" layer="21"/>
-<wire x1="0.919" y1="0.127" x2="0.919" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.919" y1="-0.254" x2="0.792" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="0.792" y1="-0.127" x2="0.665" y2="0" width="0.127" layer="21"/>
-<wire x1="0.665" y1="0" x2="0.919" y2="0.127" width="0.127" layer="21"/>
-<wire x1="0.919" y1="0.127" x2="0.792" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="0.792" y1="-0.127" x2="0.792" y2="0" width="0.127" layer="21"/>
-<smd name="C@1" x="-1.67" y="0" dx="0.85" dy="0.85" layer="1"/>
-<smd name="A" x="1.67" y="0" dx="0.85" dy="0.85" layer="1"/>
-<text x="0" y="1" size="1" layer="21" font="vector" rot="R180" align="top-center">&gt;NAME</text>
-<text x="0" y="-1" size="1" layer="21" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
-<smd name="C@2" x="-0.585" y="0" dx="1.32" dy="1.12" layer="1" rot="R180"/>
-</package>
-<package name="DFN0603-2">
-<description>DFN0603-2</description>
-<wire x1="0.305" y1="-0.25" x2="-0.305" y2="-0.25" width="0.1" layer="21"/>
-<wire x1="-0.305" y1="0.25" x2="0.305" y2="0.25" width="0.1" layer="21"/>
-<smd name="C" x="-0.19" y="0" dx="0.23" dy="0.3" layer="1"/>
-<smd name="A" x="0.19" y="0" dx="0.23" dy="0.3" layer="1"/>
-<text x="0" y="0.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="top-center">&gt;NAME</text>
-<text x="-0.635" y="0" size="0.75" layer="21" font="vector" ratio="13" align="center-right">K</text>
-</package>
-<package name="CST-2">
-<description>DFN0603-2</description>
-<wire x1="0.5" y1="-0.35" x2="-0.5" y2="-0.35" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="0.35" x2="0.5" y2="0.35" width="0.1" layer="21"/>
-<smd name="C" x="-0.325" y="0" dx="0.3" dy="0.55" layer="1"/>
-<smd name="A" x="0.325" y="0" dx="0.3" dy="0.55" layer="1"/>
-<text x="0" y="0.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="top-center">&gt;NAME</text>
-<text x="-0.635" y="0" size="0.75" layer="21" font="vector" ratio="13" align="center-right">K</text>
-</package>
-<package name="SOD-123">
-<description>SOD-123 footprint</description>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
-<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
-<smd name="C" x="1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
-<smd name="A" x="-1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
-<text x="0" y="1" size="1" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1" size="1" layer="21" font="vector" ratio="13" align="top-center">&gt;VALUE</text>
-<text x="2.5" y="0" size="0.75" layer="21" align="center-left">K</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL-4PAD">
@@ -1010,19 +814,6 @@ Note- Available clearance varies from computer to computer. This distance has be
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="DIODE">
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.3114" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.5654" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1150,79 +941,6 @@ Note- Available clearance varies from computer to computer. This distance has be
 <connects>
 <connect gate="G$1" pin="1" pad="A1 A2 A3"/>
 <connect gate="G$1" pin="2" pad="B1 B2 B3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DIODE" prefix="D" uservalue="yes">
-<description>Standard 1N4148 diode</description>
-<gates>
-<gate name="D$1" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-SOD-323" package="SOD-323">
-<connects>
-<connect gate="D$1" pin="A" pad="A"/>
-<connect gate="D$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-DO-35" package="DO-35">
-<connects>
-<connect gate="D$1" pin="A" pad="A"/>
-<connect gate="D$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="1N4148" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-HAND" package="DIODE_HAND">
-<connects>
-<connect gate="D$1" pin="A" pad="A1 A2 A3"/>
-<connect gate="D$1" pin="C" pad="C1 C2 C3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SOD-123FL" package="SOD-123FL">
-<connects>
-<connect gate="D$1" pin="A" pad="A"/>
-<connect gate="D$1" pin="C" pad="C@1 C@2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-DFN0603-2" package="DFN0603-2">
-<connects>
-<connect gate="D$1" pin="A" pad="A"/>
-<connect gate="D$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-CST-2" package="CST-2">
-<connects>
-<connect gate="D$1" pin="A" pad="A"/>
-<connect gate="D$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SOD-123" package="SOD-123">
-<connects>
-<connect gate="D$1" pin="A" pad="A"/>
-<connect gate="D$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10793,6 +10511,358 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<packages>
+<package name="SMADIODE" urn="urn:adsk.eagle:footprint:6240101/1" library_version="2">
+<description>&lt;b&gt;SMA Surface Mount Diode&lt;/b&gt;</description>
+<wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="1.3" x2="2.15" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="-1.3" x2="-2.15" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-1.3" x2="-2.15" y2="1.3" width="0.2032" layer="51"/>
+<wire x1="-3.789" y1="-1.394" x2="-3.789" y2="-1.146" width="0.127" layer="21"/>
+<wire x1="-3.789" y1="-1.146" x2="-3.789" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-3.789" y1="1.6" x2="3.816" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.816" y1="1.6" x2="3.816" y2="1.394" width="0.127" layer="21"/>
+<wire x1="3.816" y1="1.394" x2="3.816" y2="1.3365" width="0.127" layer="21"/>
+<wire x1="3.816" y1="1.394" x2="3.816" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.816" y1="-1.6" x2="-3.789" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.789" y1="-1.6" x2="-3.789" y2="-1.146" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="-0.4445" x2="-0.3175" y2="0.4445" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0.4445" x2="-0.6985" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="0" x2="-0.3175" y2="-0.4445" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="-0.4445" x2="-0.6985" y2="0.4445" width="0.127" layer="21"/>
+<smd name="C" x="-2.3495" y="0" dx="2.54" dy="2.54" layer="1"/>
+<smd name="A" x="2.3495" y="0" dx="2.54" dy="2.54" layer="1" rot="R180"/>
+<text x="-2.54" y="1.905" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.286" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.825" y1="-1.1" x2="-2.175" y2="1.1" layer="51"/>
+<rectangle x1="2.175" y1="-1.1" x2="2.825" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-1.75" y1="-1.225" x2="-1.075" y2="1.225" layer="51"/>
+</package>
+<package name="DO-1N4148" urn="urn:adsk.eagle:footprint:6240102/1" library_version="2">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="A" x="-3.81" y="0" drill="0.9"/>
+<pad name="C" x="3.81" y="0" drill="0.9"/>
+<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.032" y="-0.254" size="0.6096" layer="21">&gt;Value</text>
+</package>
+<package name="SOT23-R" urn="urn:adsk.eagle:footprint:6240103/1" library_version="2">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6524" x2="-1.5724" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.5724" y1="0.6604" x2="-0.5136" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6524" width="0.1524" layer="21"/>
+<wire x1="0.5636" y1="0.6604" x2="1.5724" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="0.4224" y1="-0.6604" x2="-0.4364" y2="-0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.6" dy="0.7" layer="1"/>
+<text x="1.778" y="0.254" size="0.4064" layer="25">&gt;NAME</text>
+<text x="1.778" y="-0.508" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOT23-W" urn="urn:adsk.eagle:footprint:6240104/1" library_version="2">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Wave soldering</description>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.3984" x2="-1.5724" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.3984" width="0.1524" layer="21"/>
+<wire x1="0.2954" y1="-0.6604" x2="-0.3094" y2="-0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.3" dx="2.8" dy="1.4" layer="1"/>
+<smd name="2" x="1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
+<smd name="1" x="-1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
+<text x="2.032" y="0.254" size="0.4064" layer="25">&gt;NAME</text>
+<text x="2.032" y="-0.508" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOD-523" urn="urn:adsk.eagle:footprint:6240105/1" library_version="2">
+<description>SOD-523 (0.8x1.2mm)
+
+&lt;p&gt;Source: http://www.rohm.com/products/databook/di/pdf/rb751s-40.pdf&lt;/p&gt;</description>
+<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.75" y1="1.5" x2="0.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.75" y1="-1.5" x2="-0.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-1.5" x2="-0.75" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="0.25" x2="1.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.25" x2="2" y2="0.25" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.25" x2="1.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.25" x2="2" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="2" y1="-0.25" x2="1.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.25" x2="1" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.25" x2="1.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.25" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-0.4445" y1="-0.1905" x2="0.4445" y2="-0.1905" width="0.127" layer="21"/>
+<wire x1="0.4445" y1="-0.1905" x2="0" y2="0.1905" width="0.127" layer="21"/>
+<wire x1="0" y1="0.1905" x2="-0.4445" y2="-0.1905" width="0.127" layer="21"/>
+<wire x1="-0.4445" y1="0.1905" x2="0.4445" y2="0.1905" width="0.127" layer="21"/>
+<smd name="K" x="0" y="0.8" dx="0.8" dy="0.6" layer="1"/>
+<smd name="A" x="0" y="-0.8" dx="0.8" dy="0.6" layer="1"/>
+<text x="1.016" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
+<text x="1.016" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.4" y1="-0.6" x2="0.4" y2="0.6" layer="51"/>
+<rectangle x1="-0.15" y1="-0.8" x2="0.15" y2="-0.6" layer="51"/>
+<rectangle x1="-0.15" y1="0.6" x2="0.15" y2="0.8" layer="51"/>
+</package>
+<package name="SOD-123" urn="urn:adsk.eagle:footprint:6240107/1" library_version="2">
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0.762" x2="1.778" y2="0.762" width="0.127" layer="21"/>
+<wire x1="1.778" y1="0.762" x2="1.778" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-0.762" x2="-1.778" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-0.762" x2="-1.778" y2="0.762" width="0.127" layer="21"/>
+<smd name="C" x="-1.85" y="0" dx="1.2" dy="0.7" layer="1"/>
+<smd name="A" x="1.85" y="0" dx="1.2" dy="0.7" layer="1"/>
+<text x="-1.1" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.284" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
+</package>
+<package name="SOD-323F" urn="urn:adsk.eagle:footprint:6240230/1" library_version="2">
+<wire x1="-0.85" y1="0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.65" x2="-0.85" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.6" x2="0.4" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.6" x2="0.3" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-0.6" x2="0.3" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.2" x2="-1.2" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="0.2" x2="-1.2" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="-0.2" x2="-0.9" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.2" x2="1.2" y2="0.2" width="0.127" layer="51"/>
+<wire x1="1.2" y1="0.2" x2="1.2" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="1.2" y1="-0.2" x2="0.9" y2="-0.2" width="0.127" layer="51"/>
+<smd name="A" x="-1" y="0" dx="1" dy="0.8" layer="1"/>
+<smd name="C" x="1" y="0" dx="1" dy="0.8" layer="1"/>
+<text x="-1.8" y="0.9" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.1" y="-1.7" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="SOD-123FL" urn="urn:adsk.eagle:footprint:6240294/1" library_version="2">
+<wire x1="-0.5" y1="0" x2="0.5" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.5" y1="0.4" x2="0.5" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.5" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.35" y1="0.825" x2="1.35" y2="0.825" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.825" x2="1.35" y2="-0.825" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.825" x2="-1.35" y2="-0.825" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.825" x2="-1.35" y2="0.825" width="0.127" layer="21"/>
+<smd name="C" x="-1.6375" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="A" x="1.6375" y="0" dx="0.91" dy="1.22" layer="1"/>
+<text x="-1.1" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.284" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMADIODE" urn="urn:adsk.eagle:package:6240747/1" type="box" library_version="2">
+<description>&lt;b&gt;SMA Surface Mount Diode&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="SMADIODE"/>
+</packageinstances>
+</package3d>
+<package3d name="DO-1N4148" urn="urn:adsk.eagle:package:6240748/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="DO-1N4148"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-R" urn="urn:adsk.eagle:package:6240749/1" type="box" library_version="2">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
+<packageinstances>
+<packageinstance name="SOT23-R"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-W" urn="urn:adsk.eagle:package:6240750/1" type="box" library_version="2">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Wave soldering</description>
+<packageinstances>
+<packageinstance name="SOT23-W"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD-523" urn="urn:adsk.eagle:package:6240751/1" type="box" library_version="2">
+<description>SOD-523 (0.8x1.2mm)
+
+&lt;p&gt;Source: http://www.rohm.com/products/databook/di/pdf/rb751s-40.pdf&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD-523"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD-123" urn="urn:adsk.eagle:package:6240753/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="SOD-123"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD-323F" urn="urn:adsk.eagle:package:6240873/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="SOD-323F"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD-123FL" urn="urn:adsk.eagle:package:6240937/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="SOD-123FL"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DIODE" urn="urn:adsk.eagle:symbol:6239559/1" library_version="2">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIODE" urn="urn:adsk.eagle:component:6241050/1" prefix="D" uservalue="yes" library_version="2">
+<description>&lt;b&gt;Diode&lt;/b&gt;
+&lt;p&gt;
+&lt;b&gt;SMADIODE&lt;/b&gt; - SMA Surface Mount Package
+&lt;ul&gt;
+&lt;li&gt;20V 1A Schottky Diode Digikey: 641-1014-6-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;DO-1N4148&lt;/b&gt; - Through Hole Small Current Diode&lt;br&gt;
+&lt;b&gt;SOD-123&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;20V 1 A (.5mV Vf) Schottky Diode - Digikey: MBRX120TPMSCT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;SOD-323&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;10V 570mA (.38mV Vf, 3ns) Schottky Diode - Digikey: ZLLS410CT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;SOD-523&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;30V 30mA Schottky Diode (RB751S-40TE61) - Digikey: RB751S-40TE61CT-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;SOT23-R/W&lt;/b&gt; - SOT23 Package (R = Solder Paste/Reflow Ovens, W = Hand-Soldering)
+&lt;ul&gt;
+&lt;li&gt;BAT54Film 40V 300mA - Digikey: 497-7162-1-ND&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMA" package="SMADIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240747/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DO-1N4148" package="DO-1N4148">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23_REFLOW" package="SOT23-R">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240749/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23_WAVE" package="SOT23-W">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240750/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-523" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240751/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240753/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-323F" package="SOD-323F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240873/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SOD-123FL" package="SOD-123FL">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240937/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10825,17 +10895,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D1" library="Components" deviceset="DIODE" device="-DFN0603-2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SW02" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="D2" library="Components" deviceset="DIODE" device="-DFN0603-2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -10845,17 +10905,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D3" library="Components" deviceset="DIODE" device="-DFN0603-2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SW04" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="D4" library="Components" deviceset="DIODE" device="-DFN0603-2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -10865,17 +10915,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D5" library="Components" deviceset="DIODE" device="-DFN0603-2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SW06" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="D6" library="Components" deviceset="DIODE" device="-DFN0603-2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -10885,17 +10925,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D7" library="Components" deviceset="DIODE" device="-DFN0603-2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SW08" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="D8" library="Components" deviceset="DIODE" device="-DFN0603-2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -10905,17 +10935,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D9" library="Components" deviceset="DIODE" device="-DFN0603-2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SW10" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="D10" library="Components" deviceset="DIODE" device="-DFN0603-2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -10925,17 +10945,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D11" library="Components" deviceset="DIODE" device="-DFN0603-2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="SW12" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="D12" library="Components" deviceset="DIODE" device="-DFN0603-2">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -11022,6 +11032,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="D12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
+<part name="D11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11069,25 +11091,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="215.9" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="215.9" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D1" gate="D$1" x="213.36" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="216.0016" y="136.9314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="208.8642" y="137.1854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="213.36" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="213.36" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="213.36" y="134.62" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="SW02" gate="G$1" x="238.76" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.57" y="147.082" size="1" layer="95" rot="R180"/>
 <attribute name="OC_NEWARK" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="238.76" y="152.4" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D2" gate="D$1" x="236.22" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="238.8616" y="136.9314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="231.7242" y="137.1854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="236.22" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="236.22" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="236.22" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW03" gate="G$1" x="261.62" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="268.43" y="147.082" size="1" layer="95" rot="R180"/>
@@ -11095,25 +11103,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="261.62" y="152.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="261.62" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D3" gate="D$1" x="259.08" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="261.7216" y="136.9314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="254.5842" y="137.1854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="259.08" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="259.08" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="259.08" y="134.62" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="SW04" gate="G$1" x="215.9" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="222.71" y="108.982" size="1" layer="95" rot="R180"/>
 <attribute name="OC_NEWARK" x="215.9" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="215.9" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="215.9" y="114.3" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D4" gate="D$1" x="213.36" y="96.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="216.0016" y="98.8314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="208.8642" y="99.0854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="213.36" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="213.36" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="213.36" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW05" gate="G$1" x="238.76" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.57" y="108.982" size="1" layer="95" rot="R180"/>
@@ -11121,25 +11115,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="238.76" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="238.76" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D5" gate="D$1" x="236.22" y="96.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="238.8616" y="98.8314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="231.7242" y="99.0854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="236.22" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="236.22" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="236.22" y="96.52" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="SW06" gate="G$1" x="261.62" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="268.43" y="108.982" size="1" layer="95" rot="R180"/>
 <attribute name="OC_NEWARK" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="261.62" y="114.3" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D6" gate="D$1" x="259.08" y="96.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="261.7216" y="98.8314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="254.5842" y="99.0854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="259.08" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="259.08" y="96.52" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="259.08" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW07" gate="G$1" x="215.9" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="222.71" y="70.882" size="1" layer="95" rot="R180"/>
@@ -11147,25 +11127,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="215.9" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="215.9" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D7" gate="D$1" x="213.36" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="216.0016" y="60.7314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="208.8642" y="60.9854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="213.36" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="213.36" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="213.36" y="58.42" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="SW08" gate="G$1" x="238.76" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.57" y="70.882" size="1" layer="95" rot="R180"/>
 <attribute name="OC_NEWARK" x="238.76" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="238.76" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="238.76" y="76.2" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D8" gate="D$1" x="236.22" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="238.8616" y="60.7314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="231.7242" y="60.9854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="236.22" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="236.22" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="236.22" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW09" gate="G$1" x="261.62" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="268.43" y="70.882" size="1" layer="95" rot="R180"/>
@@ -11173,25 +11139,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="261.62" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="261.62" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D9" gate="D$1" x="259.08" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="261.7216" y="60.7314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="254.5842" y="60.9854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="259.08" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="259.08" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="259.08" y="58.42" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="SW10" gate="G$1" x="215.9" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="222.71" y="32.782" size="1" layer="95" rot="R180"/>
 <attribute name="OC_NEWARK" x="215.9" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="215.9" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="215.9" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D10" gate="D$1" x="213.36" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="216.0016" y="22.6314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="208.8642" y="22.8854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="213.36" y="20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="213.36" y="20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="213.36" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW11" gate="G$1" x="238.76" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.57" y="32.782" size="1" layer="95" rot="R180"/>
@@ -11199,25 +11151,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MF" x="238.76" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="238.76" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D11" gate="D$1" x="236.22" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="238.8616" y="22.6314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="231.7242" y="22.8854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="236.22" y="20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="236.22" y="20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="236.22" y="20.32" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="SW12" gate="G$1" x="261.62" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="268.43" y="32.782" size="1" layer="95" rot="R180"/>
 <attribute name="OC_NEWARK" x="261.62" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="261.62" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="261.62" y="38.1" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="D12" gate="D$1" x="259.08" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="261.7216" y="22.6314" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="254.5842" y="22.8854" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_NEWARK" x="259.08" y="20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="259.08" y="20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="259.08" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="127" y="63.5" smashed="yes">
 <attribute name="NAME" x="127" y="106.68" size="1.778" layer="95" font="vector" align="center"/>
@@ -11335,6 +11273,54 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="SUPPLY2" gate="GND" x="20.32" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="18.415" y="-8.255" size="1.778" layer="96"/>
+</instance>
+<instance part="D12" gate="G$1" x="259.08" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="261.62" y="22.86" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="255.27" y="22.86" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D1" gate="G$1" x="213.36" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="215.9" y="137.16" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="209.55" y="137.16" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D2" gate="G$1" x="236.22" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="238.76" y="137.16" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="232.41" y="137.16" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D3" gate="G$1" x="259.08" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="261.62" y="137.16" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="255.27" y="137.16" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D4" gate="G$1" x="213.36" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="215.9" y="99.06" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="209.55" y="99.06" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D5" gate="G$1" x="236.22" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="238.76" y="99.06" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="232.41" y="99.06" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D6" gate="G$1" x="259.08" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="261.62" y="99.06" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="255.27" y="99.06" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D7" gate="G$1" x="213.36" y="58.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="215.9" y="60.96" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="209.55" y="60.96" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D8" gate="G$1" x="236.22" y="58.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="238.76" y="60.96" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="232.41" y="60.96" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D9" gate="G$1" x="259.08" y="58.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="261.62" y="60.96" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="255.27" y="60.96" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D10" gate="G$1" x="213.36" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="215.9" y="22.86" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="209.55" y="22.86" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="D11" gate="G$1" x="236.22" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="238.76" y="22.86" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="232.41" y="22.86" size="1.27" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -11486,8 +11472,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$9" class="0">
 <segment>
 <pinref part="SW01" gate="G$1" pin="P1"/>
-<pinref part="D1" gate="D$1" pin="A"/>
-<wire x1="213.36" y1="142.24" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="213.36" y1="142.24" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -11516,19 +11502,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$12" class="0">
 <segment>
 <pinref part="SW02" gate="G$1" pin="P1"/>
-<pinref part="D2" gate="D$1" pin="A"/>
-<wire x1="236.22" y1="142.24" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="236.22" y1="137.16" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="D2" gate="D$1" pin="C"/>
-<wire x1="236.22" y1="129.54" x2="236.22" y2="127" width="0.1524" layer="91"/>
-<pinref part="D3" gate="D$1" pin="C"/>
-<wire x1="259.08" y1="129.54" x2="259.08" y2="127" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="127" x2="259.08" y2="127" width="0.1524" layer="91"/>
-<pinref part="D1" gate="D$1" pin="C"/>
-<wire x1="213.36" y1="129.54" x2="213.36" y2="127" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="127" x2="213.36" y2="127" width="0.1524" layer="91"/>
 <junction x="213.36" y="127"/>
 <wire x1="213.36" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
@@ -11536,13 +11516,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="187.96" y1="127" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PD4(ICP1/ADC8)"/>
 <wire x1="187.96" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="213.36" y1="132.08" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="236.22" y1="132.08" x2="236.22" y2="127" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="259.08" y1="132.08" x2="259.08" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="SW03" gate="G$1" pin="P1"/>
-<pinref part="D3" gate="D$1" pin="A"/>
-<wire x1="259.08" y1="142.24" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="142.24" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -11571,111 +11557,111 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$18" class="0">
 <segment>
 <pinref part="SW04" gate="G$1" pin="P1"/>
-<pinref part="D4" gate="D$1" pin="A"/>
-<wire x1="213.36" y1="104.14" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="213.36" y1="104.14" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="SW05" gate="G$1" pin="P1"/>
-<pinref part="D5" gate="D$1" pin="A"/>
-<wire x1="236.22" y1="104.14" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="236.22" y1="104.14" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="SW06" gate="G$1" pin="P1"/>
-<pinref part="D6" gate="D$1" pin="A"/>
-<wire x1="259.08" y1="104.14" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="259.08" y1="104.14" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="D6" gate="D$1" pin="C"/>
-<wire x1="259.08" y1="91.44" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="D5" gate="D$1" pin="C"/>
-<wire x1="236.22" y1="91.44" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <junction x="236.22" y="88.9"/>
-<pinref part="D4" gate="D$1" pin="C"/>
-<wire x1="213.36" y1="91.44" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <junction x="213.36" y="88.9"/>
 <wire x1="213.36" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
 <wire x1="185.42" y1="88.9" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="213.36" y1="93.98" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="236.22" y1="93.98" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="259.08" y1="93.98" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="SW07" gate="G$1" pin="P1"/>
-<pinref part="D7" gate="D$1" pin="A"/>
-<wire x1="213.36" y1="66.04" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="213.36" y1="60.96" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="SW08" gate="G$1" pin="P1"/>
-<pinref part="D8" gate="D$1" pin="A"/>
-<wire x1="236.22" y1="66.04" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="236.22" y1="60.96" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="D8" gate="D$1" pin="C"/>
-<wire x1="236.22" y1="53.34" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="D9" gate="D$1" pin="C"/>
-<wire x1="259.08" y1="53.34" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="50.8" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
 <junction x="236.22" y="50.8"/>
-<pinref part="D7" gate="D$1" pin="C"/>
-<wire x1="213.36" y1="53.34" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="50.8" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
 <junction x="213.36" y="50.8"/>
 <wire x1="213.36" y1="50.8" x2="190.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="50.8" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PD7(T0/OC4D/ADC10)"/>
 <wire x1="190.5" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="C"/>
+<wire x1="259.08" y1="50.8" x2="259.08" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="D8" gate="G$1" pin="C"/>
+<wire x1="236.22" y1="55.88" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="C"/>
+<wire x1="213.36" y1="55.88" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="SW09" gate="G$1" pin="P1"/>
-<pinref part="D9" gate="D$1" pin="A"/>
-<wire x1="259.08" y1="66.04" x2="259.08" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="259.08" y1="60.96" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="SW10" gate="G$1" pin="P1"/>
-<pinref part="D10" gate="D$1" pin="A"/>
-<wire x1="213.36" y1="27.94" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="213.36" y1="22.86" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="D10" gate="D$1" pin="C"/>
-<wire x1="213.36" y1="15.24" x2="213.36" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="D11" gate="D$1" pin="C"/>
-<wire x1="236.22" y1="15.24" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="12.7" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
 <junction x="213.36" y="12.7"/>
-<pinref part="D12" gate="D$1" pin="C"/>
-<wire x1="259.08" y1="15.24" x2="259.08" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="12.7" x2="259.08" y2="12.7" width="0.1524" layer="91"/>
 <junction x="236.22" y="12.7"/>
 <wire x1="213.36" y1="12.7" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PB4(PCINT4/ADC11)"/>
 <wire x1="154.94" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="58.42" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="D10" gate="G$1" pin="C"/>
+<wire x1="213.36" y1="17.78" x2="213.36" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="236.22" y1="12.7" x2="236.22" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="D12" gate="G$1" pin="C"/>
+<wire x1="259.08" y1="17.78" x2="259.08" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="SW11" gate="G$1" pin="P1"/>
-<pinref part="D11" gate="D$1" pin="A"/>
-<wire x1="236.22" y1="27.94" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="236.22" y1="22.86" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -11704,8 +11690,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$42" class="0">
 <segment>
 <pinref part="SW12" gate="G$1" pin="P1"/>
-<pinref part="D12" gate="D$1" pin="A"/>
-<wire x1="259.08" y1="27.94" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="259.08" y1="27.94" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11826,6 +11812,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
