@@ -4,7 +4,7 @@
 |:-----------------|:-------------|:---------------------------|---------:|-----------:|------------:|
 | Cherry MX Switch | Through Hole | [540-MX1A-E1NW][1]         |       12 |     $0.840 |     $10.080 |
 | 1N4148 Diode     | Through Hole | [512-1N4148][2]            |       12 |     $0.174 |      $2.088 |
-| ATMEGA32U4RC-AU  | TQFP-44      | [556-ATMEGA32U4RC-AU][3]   |        1 |     $4.090 |      $4.090 |
+| ATMEGA32U4-AU    | TQFP-44      | [556-ATMEGA32U4-AU][3]     |        1 |     $4.090 |      $4.090 |
 | 16MHz Crystal    | 3.2x5        | [520-160-18-30B-AGNT][4]   |        1 |     $0.580 |      $0.580 |
 | 22p Cap          | 0603         | [80-C0603C220J5G7411][5]   |        2 |     $0.104 |      $0.208 |
 | 4.7u Cap         | 0603         | [963-LMK107BJ475MAHT][6]   |        1 |     $0.110 |      $0.110 |
@@ -19,7 +19,7 @@
 
 [1]: https://www.mouser.com/ProductDetail/540-MX1A-E1NW
 [2]: https://www.mouser.com/ProductDetail/512-1N4148
-[3]: https://www.mouser.com/ProductDetail/556-ATMEGA32U4RC-AU
+[3]: https://www.mouser.com/ProductDetail/556-ATMEGA32U4-AU
 [4]: https://www.mouser.com/ProductDetail/520-160-18-30B-AGNT
 [5]: https://www.mouser.com/ProductDetail/80-C0603C220J5G7411
 [6]: https://www.mouser.com/ProductDetail/963-LMK107BJ475MAHT
