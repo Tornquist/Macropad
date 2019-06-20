@@ -7,6 +7,16 @@ configured with QMK.
 * [Bill of Materials](BOM.md)
 * [Firmware](Firmware/)
 
+## Assembled Board
+
+![Assembled](Images/Assembled.png)
+
+## Keymap
+
+| Base                          | Raised                        |
+|:-----------------------------:|:-----------------------------:|
+| ![](Images/Keymap_Base.png)   | ![](Images/Keymap_Raised.png) |
+
 ## PCB
 
 | Top                        | Bottom                     |
